@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://trackweb-production.up.railway.app'],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://trackweb-virid.vercel.app/'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }));
